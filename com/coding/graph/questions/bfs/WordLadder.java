@@ -2,6 +2,18 @@ package com.coding.graph.questions.bfs;
 
 import java.util.*;
 
+/**
+ * Category: BFS(Breadth First Search based
+ * Leetcode URL ::: https://leetcode.com/problems/word-ladder/
+ *
+ * Approach:
+ *      Step 1: Write a function to generate all possible variation of a character with a-z.
+ *      Step 2: So from a word we can go to all the words which are having differnce of one character.
+ *      Step 3: Now put starting word in queue.
+ *      Step 4: take word from queue, generate all possible variations of that word after chaging one character.
+ *      Step 5: Check if any variation word is part of the given dictionary or not. If it is the part then add that to the queue.
+ *      Step 6: If we found the lastWord then return the level.
+ */
 public class WordLadder {
 
     public static void main(String[] args) {
