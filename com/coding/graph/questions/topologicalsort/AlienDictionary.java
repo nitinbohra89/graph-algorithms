@@ -43,6 +43,7 @@ public class AlienDictionary {
                 if(s1.charAt(idx) != s2.charAt(idx)){
                     graph.get(s1.charAt(idx)).add(s2.charAt(idx));
                     inDegree.put(s2.charAt(idx),inDegree.get(s2.charAt(idx))+1);
+                    break;
                 }
             }
         }
