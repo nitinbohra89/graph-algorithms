@@ -3,6 +3,14 @@ package com.coding.graph.core;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Category: Graph(Directed/Undirected)
+ *
+ * Approach:
+ *      Step 1: Graph with Adjacency List
+ *      Step 2: If graph is directed then pass biDir -> True
+ *      Step 3: If graph is undirected then pass biDir -> False
+ */
 public class Graph {
     public int V;
     public List<Integer>[] edges;
