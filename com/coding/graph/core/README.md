@@ -1,21 +1,21 @@
-##What is Graph?
+## What is Graph?
 Graph is a structure made of vertices and edges.
 Graph is a structure amounting to a set of objects in which some pairs of the objects are in some sense "related". 
 The objects correspond to mathematical abstractions called vertices (also called nodes or points) and each of the related pairs of vertices is called an edge (also called link or line).
 
-##Graph Representation
+## Graph Representation
 A graph is a pictorial representation of a set of objects where some pairs of objects are connected by links. 
 The interconnected objects are represented by points termed as vertices, and the links that connect the vertices are called edges.
 
 ![Graph](/assets/graph.png)
 
 
-##Graph Components
+## Graph Components
 **Nodes:** These are the most important components in any graph. Nodes are entities whose relationships are expressed using edges. If a graph comprises 2 nodes A and B and an undirected edge between them, then it expresses a bi-directional relationship between the nodes and edge.
 
 **Edges:** Edges are the components that are used to represent the relationships between various nodes in a graph. An edge between two nodes expresses a one-way or two-way relationship between the nodes.
 
-##Graph Structure
+## Graph Structure
 **Vertex** − Each node of the graph is represented as a vertex. In the following example, the labeled circle represents vertices.
 
 **Edge** − Edge represents a path between two vertices or a line between two vertices.
@@ -24,7 +24,7 @@ The interconnected objects are represented by points termed as vertices, and the
 
 **Path** − Path represents a sequence of edges between the two vertices.
 
-##Types of Graphs
+## Types of Graphs
 1. **Weighted Graph**
    Graphs whose edges or paths have values. All the values seen associated with the edges are called weights. Edges value can represent weight/cost/length.
 
