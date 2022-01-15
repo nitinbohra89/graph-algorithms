@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 /**
- * Category: Cycle in a Graph
+ * Category: Breadth First Search
  * Leetcode URL :::https://leetcode.com/problems/walls-and-gates/
  *
  * Approach:
