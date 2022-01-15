@@ -24,10 +24,12 @@ A directed acyclic graph (DAG) is a directed graph with no directed cycles. That
 
 ## Dis-joint Set Union
 In computer science, a disjoint-set data structure, also called a union–find data structure or merge–find set, is a data structure that stores a collection of disjoint (non-overlapping) sets. Equivalently, it stores a partition of a set into disjoint subsets. It provides operations for adding new sets, merging sets (replacing them by their union), and finding a representative member of a set. The last operation allows to find out efficiently if any two elements are in the same or different sets.
+
 ![Graph](/assets/dsu.png)
 
 ## Minimum Spanning Trees
 A minimum spanning tree (MST) or minimum weight spanning tree is a subset of the edges of a connected, edge-weighted undirected graph that connects all the vertices together, without any cycles and with the minimum possible total edge weight
+
 ![Graph](/assets/mst.png)
 
 ## Shortest Path Algorithms
